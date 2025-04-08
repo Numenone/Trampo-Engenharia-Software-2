@@ -46,4 +46,6 @@ function criaVeiculo(): Veiculo{
     return veiculo;
 }
 
-
+function destruirVeiculo(): Veiculo{
+    const veiculo: Veiculo = new Veiculo();
+}
